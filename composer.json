@@ -1,0 +1,23 @@
+{
+  "name": "putyy/php-utils",
+  "description": "The php-utils Packages",
+  "homepage": "https://github.com/putyy/php-utils.git",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "putyy",
+      "email": "putyy@qq.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Pt\\Utils\\": "src"
+    },
+    "files": [
+      "src/Helper/Helpers.php"
+    ]
+  }
+}
