@@ -11,6 +11,7 @@ trait AttributeSetGetTrait
      * @param $name
      * @param $arguments
      * @return  object | string | int | $this
+     * @throws Exception
      */
     public function __call($name, $arguments)
     {
